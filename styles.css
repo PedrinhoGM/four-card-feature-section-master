@@ -1,0 +1,146 @@
+body {
+    font-size: 15px;
+    background-color: hsl(0, 0%, 98%);
+    font-family: 'Poppins';
+    min-width: 375px;
+    max-width: 1440px;
+    margin: auto;
+    justify-content: space-evenly;
+    display: flex;
+    align-items: center;
+}
+
+.top{
+    text-align: center;
+}
+
+.top p {
+    width: 500px;
+}
+
+.top h1 {
+    font-size: 25px;
+    margin-top: -26px;
+}
+
+.top h3 {
+    font-size: 25px;
+    margin-top: 92px;
+}
+
+.bottom {
+    flex-direction: row;
+    justify-content: space-evenly;
+    display: flex;
+    align-items: center;
+    margin-top: 70px;
+}
+
+.Intro {
+    margin-left: 32px;
+    color: hsl(234, 12%, 34%);
+}
+
+.top p {
+    margin: auto;
+}
+
+.Description {
+    margin-left: 32px;
+    color: hsl(229, 6%, 66%);
+}
+
+.Image {
+    margin-left: 254px;
+    margin-top: 50px;
+}
+
+.Supervisor {
+    height: 246px;
+    width: 350px;
+    background-color: white;
+    border-top: 5px solid hsl(180, 62%, 55%);
+    box-shadow: 1px 5px 10px 1px hsl(210, 30%, 80%);
+    border-radius: 5px;
+    margin-right: 30px;
+}
+
+.TeamBuilder {
+    height: 246px;
+    width: 350px;
+    background-color: white;
+    border-top: 5px solid hsl(0, 78%, 62%);
+    box-shadow: 1px 5px 10px 1px hsl(210, 30%, 80%);
+    border-radius: 5px;
+    margin-bottom: 25px;
+}
+
+.Karma {
+    height: 246px;
+    width: 350px;
+    background-color: white;
+    border-top: 5px solid hsl(34, 97%, 64%);
+    box-shadow: 1px 5px 10px 1px hsl(210, 30%, 80%);
+    border-radius: 5px;
+}
+
+.Calculator {
+    height: 246px;
+    width: 350px;
+    background-color: white;
+    border-top: 5px solid hsl(212, 86%, 64%);
+    box-shadow: 1px 5px 10px 1px hsl(210, 30%, 80%); 
+    border-radius: 5px;
+    margin-left: 30px;
+}
+
+.attribution {
+    margin-top: 100px;
+}
+
+@media only screen and (max-width: 375px) {
+    body {
+        width: 375px;
+    }
+
+    .top > p {
+        width: 300px;
+    }
+
+    .subtitle {
+        text-align: justify;
+        column-span: all;
+    }
+  
+    .bottom {
+    flex-direction: column;
+    justify-content: space-around;
+    display: flex;
+  }
+
+    .Supervisor {
+        margin: auto;
+        margin-bottom: 25px;
+    }
+
+    .TeamBuilder {
+        margin: auto;
+        margin-bottom: 25px;
+    }
+
+    .Karma {
+        margin: auto;
+        margin-bottom: 25px;
+    }
+
+    .Calculator {
+        margin: auto;
+        margin-bottom: 25px;
+    }
+
+    .attribution {
+        margin-top: 0px;
+        width: 300px;
+        font-size: 50px;
+    }
+}
